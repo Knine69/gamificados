@@ -1,0 +1,14 @@
+.heading-container {
+  display: flex;
+  position: relative;
+}
+.heading-heading {
+  color: var(--dl-color-secondary-700);
+  position: relative;
+  text-align: left;
+}
+.heading-root-class-name {
+  top: 43px;
+  left: 67px;
+  position: absolute;
+}
