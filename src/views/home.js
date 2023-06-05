@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Heading from '../components/heading'
+
 import './home.css'
 
 const Home = (props) => {
@@ -14,7 +15,7 @@ const Home = (props) => {
         <title>Soft UI Pro</title>
         <meta property="og:title" content="Soft UI Pro" />
       </Helmet>
-      <Header rootClassName="header-root-class-name"></Header>
+      <Header rootClassName="header-root-class-name" />
       <div className="home-hero">
         <div className="home-container1">
           <div className="home-card">
@@ -79,8 +80,8 @@ const Home = (props) => {
         </div>
       </div>
       <img alt="image" src="/curved6-1500h.jpg" className="home-image2" />
-      <Footer></Footer>
-      <Heading rootClassName="heading-root-class-name"></Heading>
+      <Footer />
+      <Heading rootClassName="heading-root-class-name" />
     </div>
   )
 }

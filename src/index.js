@@ -10,11 +10,9 @@ import Home from './views/home'
 const App = () => {
   return (
     <Router>
-      <div>
-        <Route component={Courses} exact path="/courses" />
-        <Route component={Profile} exact path="/profile" />
-        <Route component={Home} exact path="/" />
-      </div>
+      <Route component={Courses} exact path="/courses" />
+      <Route component={Profile} exact path="/profile" />
+      <Route component={Home} exact path="/" />
     </Router>
   )
 }

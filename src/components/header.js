@@ -11,13 +11,13 @@ const Header = (props) => {
     <div data-role="Header" className={`header-header ${props.rootClassName} `}>
       <nav className="header-nav">
         <div className="header-container">
-          <Link to="/" className="header-navlink">
+          <Link to="/profile" className="header-navlink">
             Perfil
           </Link>
           <Link to="/" className="header-navlink1">
             Home
           </Link>
-          <Link to="/" className="header-navlink2">
+          <Link to="/courses" className="header-navlink2">
             Cursos
           </Link>
           <div className="header-container1">

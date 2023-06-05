@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Eternal Chronicles",
+        "description": "Embark on a timeless journey in this classic RPG.",
+        "image": "eternal_chronicles_image.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Shadow's Edge",
+        "description": "Uncover the secrets lurking in the dark in this stealth action game.",
+        "image": "shadows_edge_image.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Ocean's Call",
+        "description": "Explore the depths of the sea in this captivating adventure.",
+        "image": "oceans_call_image.png"
+    },
+    {
+        "id": "4",
+        "title": "Skybound Odyssey",
+        "description": "Experience the thrill of flying in this open-world adventure game.",
+        "image": "skybound_odyssey_image.jpg"
+    }
+]
